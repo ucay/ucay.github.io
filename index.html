@@ -1,9 +1,14 @@
 <html>
 	<head>
-		<!-- No head detected -->
-
-		<!-- wait, I found a script here-->
-		<script>console.log('Haven\'t designed yet. So, be patient. ^_^')</script>
+		<!-- this is my head -->
+		<script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/components/core-min.js"></script>
+		<script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/components/enc-base64-min.js"></script>
+		<script>
+			var words  = CryptoJS.enc.Base64.parse('VGhpcyBwYWdlIGdvbm5hIGJlIHVwZGF0ZWQgc29vbg==');
+    		var base64 = CryptoJS.enc.Base64.stringify(words);
+			console.log(base64);
+			
+		</script>
 	</head>
 	<body>
 		<!-- I found no body -->
