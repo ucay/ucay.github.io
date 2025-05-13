@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1747039315064,
+  "timestamp": 1747116000240,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -79,7 +79,10 @@
         "/runtime.d359200d60da0469.js",
         "/styles.3439846c19af0eee.css"
       ],
-      "patterns": []
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/.*",
+        "https:\\/\\/fonts\\.gstatic\\.com\\/.*"
+      ]
     },
     {
       "name": "assets",
@@ -188,9 +191,9 @@
     "/assets/img/logo/symfony.png": "9139630f7102e15f40505d05e49bd1591e8fa31a",
     "/assets/shapes.svg": "638f87e27e6fc7ddfd6e6b262ea70d690f6c7011",
     "/common.46ff48aafb75616f.js": "0c8580f282229cd6ae1b35a4f6f40ca62558d0e7",
-    "/index.html": "bfd10388a5ead29431e7b969289277afc56f2582",
+    "/index.html": "a982205988a61bbd6321b112332b3eeac29c352e",
     "/main.1f9e5cd1964d0fcb.js": "8f50b27a93246364a15b6b08882c0ccece3b2de3",
-    "/manifest.webmanifest": "da2061dba175bf2d881980e8596ff5343e2dd7b6",
+    "/manifest.webmanifest": "8097269a4b39dc66c39773378992cb76ab286295",
     "/polyfills-core-js.20e9fb5568c66479.js": "7b2237821e79690f9dd2dac0b8a3b9ec6c229b76",
     "/polyfills-dom.3a5e3168052f1fc5.js": "50f6ff473a0568bffb8a9d412d7efaced2d36137",
     "/polyfills.fc6fad8ce607b49d.js": "29ecdc4392e1398b433f3838f08631c7ce701c6d",
