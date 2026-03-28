@@ -1,0 +1,10 @@
+<svg width="180" height="180" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="180" rx="40" fill="#f5ede2"/>
+  <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle"
+        font-family="montserrat, monospace"
+        font-size="180"
+        font-weight="bolder"
+        fill="#2a1f14">
+    U
+  </text>
+</svg>
